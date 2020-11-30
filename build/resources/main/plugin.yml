@@ -1,0 +1,4 @@
+name: MobStack
+version: 1.0-SNAPSHOT
+api-version: 1.16
+main: me.nfdsr.mobstack.MobStackPlugin

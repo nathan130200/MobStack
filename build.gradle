@@ -1,0 +1,15 @@
+plugins {
+    id 'java'
+}
+
+group 'me.nfdsr'
+version '1.0-SNAPSHOT'
+
+repositories {
+    maven { url 'https://hub.spigotmc.org/nexus/content/groups/public/' }
+    maven { url 'https://hub.spigotmc.org/nexus/content/repositories/snapshots/' }
+}
+
+dependencies {
+    compileOnly 'org.spigotmc:spigot-api:1.16.4-R0.1-SNAPSHOT'
+}
